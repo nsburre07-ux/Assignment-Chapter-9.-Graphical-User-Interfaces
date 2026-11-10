@@ -8,7 +8,7 @@ def f_to_c():
 
 def c_to_f():
     c = float(c_entry.get())
-    f = (f - 32) * 5/9
+    f = (c - 32) * 5/9
     f_entry.delete(0, tk.END)
     f_entry.insert(0, f"{f:.1f}")
 
