@@ -12,7 +12,7 @@ def c_to_f():
     f_entry.delete(0, tk.END)
     f_entry.insert(0, f"{f:.1f}")
 
-window = tk.TK()
+window = tk.Tk()
 window.title("Temperature Converter")
 
 # Labels (Row 0)
